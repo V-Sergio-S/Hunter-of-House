@@ -1,0 +1,44 @@
+.title {
+
+  font-family: Roboto;
+  font-size: 82px;
+  font-weight: 900;
+
+  @media screen and ( max-width: $laptop-bp) {
+    font-size: 72px;
+  }
+  @media screen and ( max-width: $mobile-bp) {
+    font-size: 42px;
+  }
+  @media screen and ( max-width: $tapik-bp) {
+    font-size: 21px;
+  }
+
+  &--front-page {
+    margin: 229px 0 32px 0;
+
+    color: $hover-active;
+  }
+
+  &--wrapp {
+    color: #1B1C1E;
+    font-size: 60px;
+    text-transform: uppercase;
+
+    @media screen and ( max-width: $tapik-bp) {
+      font-size: 26px;
+    }
+  }
+  &--footer {
+    margin-bottom: 8px;
+    color: $white;
+    font-family: "HelveticaNeue";
+    font-size: 20px;
+    font-weight: 900;
+
+    @media screen and ( max-width: $tapik-bp) {
+      font-size: 14px;
+    }
+  }
+
+}

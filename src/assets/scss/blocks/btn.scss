@@ -1,0 +1,64 @@
+.btn {
+  background: $hover-active;
+  border: none;
+  cursor: pointer;
+
+  transition: background .4s ease;
+
+  &--form {
+    width: 213px;
+    height: 42px;
+
+    border-radius: 3px;
+
+    color: $white;
+    font-size: 12px;
+    font-weight: 600;
+
+    @media screen and ( max-width: $laptop-bp) {
+      width: 257px;
+      margin: 5px;
+    }
+
+    @media screen and ( max-width: $mobile-bp) {
+      width: 100%;
+    }
+    }
+
+    &--about {
+      width: 192px;
+      height: 59px;
+      transition: color .4s ease;
+
+      &:hover {
+        color: $white;
+
+        .about__arrow path { 
+            stroke: $white
+      }
+      }
+    }
+    
+    &--fauna {
+      width: 157px;
+      height: 43px;
+      transition: color .4s ease;
+
+      @media screen and ( max-width: $mobile-bp) {
+        width: 147px;
+        height: 33px;
+      }
+
+      &:hover {
+        color: $white;
+
+        .about__arrow path { 
+            stroke: $white
+      }
+      }
+    }
+  
+  &:hover {
+    background:darken($hover-active, 8%);
+  }
+}

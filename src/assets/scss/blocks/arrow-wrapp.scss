@@ -1,0 +1,19 @@
+.arrow-wrap {
+  width: 100%;
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow {
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+
+  &--prev {
+    padding-right: 8px;
+  }
+  &--next {
+    padding-left: 8px;
+  }
+}

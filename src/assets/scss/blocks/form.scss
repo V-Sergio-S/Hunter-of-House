@@ -1,0 +1,89 @@
+.form {
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.form__container {
+  position: absolute;
+  bottom: -26px;
+  display: flex;
+  padding: 29px 27px 33px 33px;
+  border-radius: 3px;
+  background:$invisible-white;
+  box-shadow: 7px 7px 23px 0px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(25px);
+
+    @media screen and ( max-width: $laptop-bp) {
+      bottom: -170px;
+      width: 80%;
+      padding: 10px;
+      flex-direction: column;
+      align-items: center;
+    }
+    @media screen and ( max-width: $mobile-bp) {
+      bottom: -200px;
+    }
+}
+.form__hunter-label {
+  position: relative;
+  padding: 9px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 259px;
+  height: 42px;
+
+  border-radius: 3px;
+  border: 2px solid #D1D1D1;
+  background: $white;
+
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid $hover-active;
+  }
+  &:focus,
+  :active {
+    border: 2px solid transparent;
+  }
+
+  @media screen and ( max-width: $laptop-bp) {
+    width: 100%;
+    margin: 5px;
+  }
+}
+.form__hunter-input {
+  margin: 21px 7px 0 0;
+  outline: none;
+  border: 0;
+  background: transparent;
+
+  color: #151212;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+
+  &:hover,
+  :focus,
+  :active {
+    border: 2px solid transparent;
+    outline: none;
+  }
+}
+.form__hunter-text {
+  position: absolute;
+  top: 7px;
+  left: 9px;
+  color: #151212;
+  font-size: 12px;
+  font-weight: 300;
+
+  @media screen and ( max-width: $laptop-bp) {
+    font-size: 11px;
+  }
+  @media screen and ( max-width: $mobile-bp) {
+    font-size: 9px;
+  }
+}
