@@ -61,4 +61,12 @@
   &:hover {
     background:darken($hover-active, 8%);
   }
+
+  &--order-call {
+    margin-top: 46px;
+    width: 192px;
+    height: 59px;
+    border-radius: 3px;
+
+  }
 }

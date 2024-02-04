@@ -1,5 +1,6 @@
 .fauna {
-  padding: 92px 0 25px 0;
+  position: relative;
+  padding: 92px 0 172px 0;
 }
 .fauna__cards {
   padding: 0 50px 30px 25px;
@@ -103,4 +104,9 @@
   @media screen and ( max-width: $mobile-bp) {
     font-size: 12px;
   }
+}
+.fauna__form {
+  width: 100%;
+  padding: 188px 0 60px 0;
+  position: relative;
 }

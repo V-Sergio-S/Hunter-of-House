@@ -1,5 +1,8 @@
 .residence {
   padding: 67px 0 155px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   overflow: hidden;
 }
 .residence__cards {

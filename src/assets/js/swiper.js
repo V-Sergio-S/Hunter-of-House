@@ -52,3 +52,31 @@ const apartment = new Swiper(".swiper--apartment", {
         },
     },
 });
+const orderCallFauna = new Swiper(".swiper--order-call-fauna", {
+    slidesPerView: 1,
+    spaceBetween: 15,
+    navigation: {
+        nextEl: ".fauna-next",
+        prevEl: ".fauna-prev",
+        clickable: true,
+    },
+    breakpoints: {
+        "@0.00": {
+            slidesPerView: 1,
+        },
+    },
+});
+const orderCallVisio = new Swiper(".swiper--order-call-visio", {
+    slidesPerView: 1,
+    spaceBetween: 15,
+    navigation: {
+        nextEl: ".visio-next",
+        prevEl: ".visio-prev",
+        clickable: true,
+    },
+    breakpoints: {
+        "@0.00": {
+            slidesPerView: 1,
+        },
+    },
+});

@@ -24,7 +24,7 @@ title: Hunter of House
 <div class="form__container">
   <label class="form__hunter-label">
     <span class="form__hunter-text">Заезд</span>
-    <input class="form__hunter-input type="text" ">
+    <input class="form__hunter-input" type="text">
       <svg class="form__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path class="form__svg-path" d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         <path class="form__svg-path" d="M3 10H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -64,8 +64,8 @@ title: Hunter of House
     <p class="text  text--about">__________ предлагает всем желающим окунуться в мир дикой природы и встретить зверя своей мечты. Круглогодичный охотничий тур по системе "все включено", с комфортабельным размещением, 3-ёх разовым питанием, пользованием внутренней территорией, баней, бассейном, сопровождением профессионалов с момента приезда до контрольного выстрела. Все это про ________________</p>
     <button class="btn  btn--about">
       Забронировать
-      <svg class="about__arrow" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path class="about__arrow" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
+      <svg class="arrow-btn" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="arrow-btn" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
       </svg>
     </button>
   </div>
@@ -90,117 +90,117 @@ title: Hunter of House
   </div>
 </div><!-- End box -->
 <!-- wrapp -->
-  <div class="wrapp wrapp--fauna">
-    <svg class="wrapp__label" width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path class="wrapp__label-path" fill-rule="evenodd" clip-rule="evenodd" d="M15.0719 0.634912C14.3403 1.44576 14.5469 2.90213 15.8389 6.04389C16.9988 8.86433 18.3887 10.9331 19.9912 12.2245L21.2066 13.2039L20.898 15.1253C20.6915 16.4119 20.4409 17.0468 20.1397 17.0468C18.4448 17.0468 15.2618 14.1012 13.189 10.614C12.2425 9.02129 12.0285 8.84503 11.0428 8.84503C8.36119 8.84503 9.32285 12.1717 13.233 16.4238C15.2124 18.5762 18.3665 20.5848 19.767 20.5848C20.2408 20.5848 20.3572 20.836 20.3572 21.8578C20.3572 23.3612 21.3824 22.6828 8.99759 29.3751C4.2496 31.9408 0.228797 34.2837 0.0626396 34.5812C-0.155802 34.9729 0.183569 36.2739 1.29406 39.3009C2.5319 42.6752 2.97488 43.5359 3.59396 43.772C4.01577 43.9328 9.02261 44.0643 14.7207 44.0643H25.0805L26.0928 46.1257C27.3859 48.7593 29.9902 51.3729 32.7767 52.8331C36.2483 54.6523 37.8675 55 42.8693 55H47.3016V51.6228V48.2456H45.5374H43.7732V50.0146V51.7836H41.7466C36.3314 51.7836 30.3411 48.0845 28.8636 43.8286C28.5708 42.9852 28.1557 41.9335 27.9408 41.4912L27.5501 40.6871L16.4785 40.6025L5.40725 40.5183L5.02329 39.454C4.81223 38.8689 4.63966 38.2916 4.63966 38.1716C4.63966 38.0516 4.25602 36.0234 4.63966 36.0234C9.45118 32.9678 8.02283 33.779 16.2434 29.3243C22.3075 26.0388 23.0215 25.7307 24.5833 25.7262C25.5228 25.7233 26.454 25.6149 26.6526 25.4849C26.8511 25.355 27.849 23.5841 28.8694 21.5497L30.725 17.8509L31.161 19.4591C31.5805 21.0071 31.5555 23.5027 31.099 25.6107C30.9197 26.4386 31.0128 26.7088 31.6248 27.1385C32.2766 27.5965 33.7621 27.6608 43.6843 27.6608H55V25.8918V24.1228H45.1034H35.2065L35.0082 21.7678C34.6862 17.9493 32.6827 12.6857 31.3653 12.1971C30.1958 11.7632 29.3993 12.7526 26.9201 17.7161C25.6017 20.3551 24.3796 22.5146 24.2045 22.5146C23.7243 22.5146 23.8192 18.4771 24.3748 15.2829C25.3977 9.4021 27.6598 6.75439 31.6613 6.75439C32.7927 6.75439 33.1343 6.96924 34.9014 8.79132C38.6945 12.7027 43.3036 13.9539 49.2782 12.6937C52.3447 12.0469 53.1431 11.5191 53.0141 10.2245C52.8615 8.69547 52.2039 8.47933 49.6111 9.10684C45.4646 10.1104 41.3523 9.6488 39.0114 7.91678L37.9464 7.12909L39.8172 6.91295C42.7692 6.57234 43.8983 6.19056 45.4367 5.0124C47.8533 3.16202 48.5257 1.59339 47.3565 0.53231C46.4529 -0.287865 45.8796 -0.119971 44.2883 1.43096C43.4627 2.23538 42.2912 3.00924 41.6125 3.19836C40.9485 3.38298 37.8428 3.53512 34.7115 3.53608L29.0179 3.53801V2.08389C29.0179 0.84462 28.8992 0.575409 28.216 0.263099C27.6162 -0.0109357 27.212 -0.0109357 26.6122 0.263099C25.8706 0.601784 25.8102 0.795088 25.8102 2.82751C25.8102 4.86605 25.7381 5.09474 24.8194 5.97056C24.2744 6.49 23.4667 7.5305 23.0247 8.28216C22.5824 9.03415 22.0919 9.56936 21.9347 9.4719C20.8592 8.80547 18.1118 3.34149 18.1118 1.86871C18.1118 1.11319 16.9949 0 16.237 0C15.9114 0 15.3873 0.285936 15.0719 0.634912Z" fill="#C39A3B"/>
-    </svg>
-    <h2 class="title  title--wrapp">Фауна</h2>
-  </div><!-- End wrapp -->
-  <div class="fauna__cards">
-    <!-- fauna__card -->
-    <div class="fauna__card">
-      <picture class="fauna__img">
-        <img class="fauna__card-img" src="assets/images/fauna_1.png" alt="кабан">
-      </picture>
-      <div class="fauna__footer">
-        <div class="fauna__info">
-          <p class="fauna__card-name">Кабан</p>
-          <p class="fauna__price">от 30.000</p>
-        </div>
-        <button class="btn  btn--fauna">
-          Узнать цену
-          <svg class="about__arrow" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path class="about__arrow" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
-          </svg>
-        </button>
+<div class="wrapp wrapp--fauna">
+  <svg class="wrapp__label" width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="wrapp__label-path" fill-rule="evenodd" clip-rule="evenodd" d="M15.0719 0.634912C14.3403 1.44576 14.5469 2.90213 15.8389 6.04389C16.9988 8.86433 18.3887 10.9331 19.9912 12.2245L21.2066 13.2039L20.898 15.1253C20.6915 16.4119 20.4409 17.0468 20.1397 17.0468C18.4448 17.0468 15.2618 14.1012 13.189 10.614C12.2425 9.02129 12.0285 8.84503 11.0428 8.84503C8.36119 8.84503 9.32285 12.1717 13.233 16.4238C15.2124 18.5762 18.3665 20.5848 19.767 20.5848C20.2408 20.5848 20.3572 20.836 20.3572 21.8578C20.3572 23.3612 21.3824 22.6828 8.99759 29.3751C4.2496 31.9408 0.228797 34.2837 0.0626396 34.5812C-0.155802 34.9729 0.183569 36.2739 1.29406 39.3009C2.5319 42.6752 2.97488 43.5359 3.59396 43.772C4.01577 43.9328 9.02261 44.0643 14.7207 44.0643H25.0805L26.0928 46.1257C27.3859 48.7593 29.9902 51.3729 32.7767 52.8331C36.2483 54.6523 37.8675 55 42.8693 55H47.3016V51.6228V48.2456H45.5374H43.7732V50.0146V51.7836H41.7466C36.3314 51.7836 30.3411 48.0845 28.8636 43.8286C28.5708 42.9852 28.1557 41.9335 27.9408 41.4912L27.5501 40.6871L16.4785 40.6025L5.40725 40.5183L5.02329 39.454C4.81223 38.8689 4.63966 38.2916 4.63966 38.1716C4.63966 38.0516 4.25602 36.0234 4.63966 36.0234C9.45118 32.9678 8.02283 33.779 16.2434 29.3243C22.3075 26.0388 23.0215 25.7307 24.5833 25.7262C25.5228 25.7233 26.454 25.6149 26.6526 25.4849C26.8511 25.355 27.849 23.5841 28.8694 21.5497L30.725 17.8509L31.161 19.4591C31.5805 21.0071 31.5555 23.5027 31.099 25.6107C30.9197 26.4386 31.0128 26.7088 31.6248 27.1385C32.2766 27.5965 33.7621 27.6608 43.6843 27.6608H55V25.8918V24.1228H45.1034H35.2065L35.0082 21.7678C34.6862 17.9493 32.6827 12.6857 31.3653 12.1971C30.1958 11.7632 29.3993 12.7526 26.9201 17.7161C25.6017 20.3551 24.3796 22.5146 24.2045 22.5146C23.7243 22.5146 23.8192 18.4771 24.3748 15.2829C25.3977 9.4021 27.6598 6.75439 31.6613 6.75439C32.7927 6.75439 33.1343 6.96924 34.9014 8.79132C38.6945 12.7027 43.3036 13.9539 49.2782 12.6937C52.3447 12.0469 53.1431 11.5191 53.0141 10.2245C52.8615 8.69547 52.2039 8.47933 49.6111 9.10684C45.4646 10.1104 41.3523 9.6488 39.0114 7.91678L37.9464 7.12909L39.8172 6.91295C42.7692 6.57234 43.8983 6.19056 45.4367 5.0124C47.8533 3.16202 48.5257 1.59339 47.3565 0.53231C46.4529 -0.287865 45.8796 -0.119971 44.2883 1.43096C43.4627 2.23538 42.2912 3.00924 41.6125 3.19836C40.9485 3.38298 37.8428 3.53512 34.7115 3.53608L29.0179 3.53801V2.08389C29.0179 0.84462 28.8992 0.575409 28.216 0.263099C27.6162 -0.0109357 27.212 -0.0109357 26.6122 0.263099C25.8706 0.601784 25.8102 0.795088 25.8102 2.82751C25.8102 4.86605 25.7381 5.09474 24.8194 5.97056C24.2744 6.49 23.4667 7.5305 23.0247 8.28216C22.5824 9.03415 22.0919 9.56936 21.9347 9.4719C20.8592 8.80547 18.1118 3.34149 18.1118 1.86871C18.1118 1.11319 16.9949 0 16.237 0C15.9114 0 15.3873 0.285936 15.0719 0.634912Z" fill="#C39A3B"/>
+  </svg>
+  <h2 class="title  title--wrapp">Фауна</h2>
+</div><!-- End wrapp -->
+<div class="fauna__cards">
+  <!-- fauna__card -->
+  <div class="fauna__card">
+    <picture class="fauna__img">
+      <img class="fauna__card-img" src="assets/images/fauna_1.png" alt="кабан">
+    </picture>
+    <div class="fauna__footer">
+      <div class="fauna__info">
+        <p class="fauna__card-name">Кабан</p>
+        <p class="fauna__price">от 30.000</p>
       </div>
-    </div> 
-    <div class="fauna__card">
-      <picture class="fauna__img">
-        <img class="fauna__card-img" src="assets/images/fauna_2.png" alt="Лань">
-      </picture>
-      <div class="fauna__footer">
-        <div class="fauna__info">
-          <p class="fauna__card-name">Лань</p>
-          <p class="fauna__price">от 80.000</p>
-        </div>
-        <button class="btn  btn--fauna">
-          Узнать цену
-          <svg class="about__arrow" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path class="about__arrow" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
-          </svg>
-        </button>
+      <button class="btn  btn--fauna">
+        Узнать цену
+        <svg class="arrow-btn" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="arrow-btn" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
+        </svg>
+      </button>
+    </div>
+  </div> 
+  <div class="fauna__card">
+    <picture class="fauna__img">
+      <img class="fauna__card-img" src="assets/images/fauna_2.png" alt="Лань">
+    </picture>
+    <div class="fauna__footer">
+      <div class="fauna__info">
+        <p class="fauna__card-name">Лань</p>
+        <p class="fauna__price">от 80.000</p>
       </div>
-    </div> 
-    <div class="fauna__card">
-      <picture class="fauna__img">
-        <img class="fauna__card-img" src="assets/images/fauna_3.png" alt="Заяц">
-      </picture>
-      <div class="fauna__footer">
-        <div class="fauna__info">
-          <p class="fauna__card-name">Заяц</p>
-          <p class="fauna__price">от 2.000</p>
-        </div>
-        <button class="btn  btn--fauna">
-          Узнать цену
-          <svg class="about__arrow" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path class="about__arrow" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
-          </svg>
-        </button>
+      <button class="btn  btn--fauna">
+        Узнать цену
+        <svg class="arrow-btn" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="arrow-btn" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
+        </svg>
+      </button>
+    </div>
+  </div> 
+  <div class="fauna__card">
+    <picture class="fauna__img">
+      <img class="fauna__card-img" src="assets/images/fauna_3.png" alt="Заяц">
+    </picture>
+    <div class="fauna__footer">
+      <div class="fauna__info">
+        <p class="fauna__card-name">Заяц</p>
+        <p class="fauna__price">от 2.000</p>
       </div>
-    </div> 
-    <div class="fauna__card">
-      <picture class="fauna__img">
-        <img class="fauna__card-img" src="assets/images/fauna_4.png" alt="Олень">
-      </picture>
-      <div class="fauna__footer">
-        <div class="fauna__info">
-          <p class="fauna__card-name">Олень</p>
-          <p class="fauna__price">от 100.000</p>
-        </div>
-        <button class="btn  btn--fauna">
-          Узнать цену
-          <svg class="about__arrow" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path class="about__arrow" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
-          </svg>
-        </button>
+      <button class="btn  btn--fauna">
+        Узнать цену
+        <svg class="arrow-btn" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="arrow-btn" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
+        </svg>
+      </button>
+    </div>
+  </div> 
+  <div class="fauna__card">
+    <picture class="fauna__img">
+      <img class="fauna__card-img" src="assets/images/fauna_4.png" alt="Олень">
+    </picture>
+    <div class="fauna__footer">
+      <div class="fauna__info">
+        <p class="fauna__card-name">Олень</p>
+        <p class="fauna__price">от 100.000</p>
       </div>
-    </div> 
-    <div class="fauna__card">
-      <picture class="fauna__img">
-        <img class="fauna__card-img" src="assets/images/fauna_5.png" alt="Косуля">
-      </picture>
-      <div class="fauna__footer">
-        <div class="fauna__info">
-          <p class="fauna__card-name">Косуля</p>
-          <p class="fauna__price">от 30.000</p>
-        </div>
-        <button class="btn  btn--fauna">
-          Узнать цену
-          <svg class="about__arrow" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path class="about__arrow" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
-          </svg>
-        </button>
+      <button class="btn  btn--fauna">
+        Узнать цену
+        <svg class="arrow-btn" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="arrow-btn" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
+        </svg>
+      </button>
+    </div>
+  </div> 
+  <div class="fauna__card">
+    <picture class="fauna__img">
+      <img class="fauna__card-img" src="assets/images/fauna_5.png" alt="Косуля">
+    </picture>
+    <div class="fauna__footer">
+      <div class="fauna__info">
+        <p class="fauna__card-name">Косуля</p>
+        <p class="fauna__price">от 30.000</p>
       </div>
-    </div> 
-    <div class="fauna__card">
-      <picture class="fauna__img">
-        <img class="fauna__card-img" src="assets/images/fauna_6.png" alt="Фазан">
-      </picture>
-      <div class="fauna__footer">
-        <div class="fauna__info">
-          <p class="fauna__card-name">Фазан</p>
-          <p class="fauna__price">от 1.500</p>
-        </div>
-        <button class="btn  btn--fauna">
-          Узнать цену
-          <svg class="about__arrow" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path class="about__arrow" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
-          </svg>
-        </button>
+      <button class="btn  btn--fauna">
+        Узнать цену
+        <svg class="arrow-btn" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="arrow-btn" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
+        </svg>
+      </button>
+    </div>
+  </div> 
+  <div class="fauna__card">
+    <picture class="fauna__img">
+      <img class="fauna__card-img" src="assets/images/fauna_6.png" alt="Фазан">
+    </picture>
+    <div class="fauna__footer">
+      <div class="fauna__info">
+        <p class="fauna__card-name">Фазан</p>
+        <p class="fauna__price">от 1.500</p>
       </div>
-    </div><!-- End fauna__card --> 
-  </div><!-- End fauna__cards -->
+      <button class="btn  btn--fauna">
+        Узнать цену
+        <svg class="arrow-btn" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="arrow-btn" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#1B1C1E" stroke-width="2"/>
+        </svg>
+      </button>
+    </div>
+  </div><!-- End fauna__card --> 
+</div><!-- End fauna__cards -->
 <!-- box -->
 <div class="box  box--bottom">
   <div class="liner">
@@ -215,9 +215,113 @@ title: Hunter of House
   </div>
 </div><!-- End box -->
 
+<!-- box -->
+<div class="box">
+  <div class="liner  liner--top">
+    <svg class="liner-svg" width="1035" height="2" viewBox="0 0 1035 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="liner-svg" d="M3.11136e-05 1L1035 1" stroke="#C39A3B" stroke-width="2"/>
+    </svg>
+  </div>
+  <div class="liner  liner--bottom">
+    <svg class="liner-svg" width="1305" height="2" viewBox="0 0 1305 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="liner-svg" d="M3.06368e-05 1L1305 1" stroke="#C39A3B" stroke-width="2"/>
+    </svg>
+  </div>
+</div><!-- End box -->
+
+<div class="fauna__form">
+
+  <!-- order-call__container -->
+  <div class="order-call__container  order-call__container--fauna">
+  <div class="order-call__form">
+    <div class="order-call__left">
+      <div class="swiper swiper--order-call-fauna">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="order-call__card">
+              <picture class="order-call__card-photo">
+              <img class="order-call__img" src="assets/images/Galary_2.jpg"
+                  alt="Наши апартаменты">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="order-call__card">
+              <picture class="order-call__card-photo">
+              <img class="order-call__img" src="assets/images/Galary_1.jpg"
+                  alt="Наши апартаменты">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="order-call__card">
+              <picture class="order-call__card-photo">
+              <img class="order-call__img" src="assets/images/Galary_2.jpg"
+                  alt="Наши апартаменты">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="order-call__card">
+              <picture class="order-call__card-photo">
+              <img class="order-call__img" src="assets/images/Galary_1.jpg"
+                  alt="Наши апартаменты">
+              </picture>
+            </div>
+          </div>
+
+        </div>
+        <div class="arrow-wrap  arrow-wrap--order-call">
+            <button class="order-call__arrow  order-call__arrow--prev  fauna-prev">
+                <img class="prev-img" src="assets/images/left-arrow.png" alt="предыдущее">
+            </button>
+            <button class="order-call__arrow  order-call__arrow--next  fauna-next">
+                <img class="next-img" src="assets/images/right-arrow.png" alt="следующее">
+            </button>
+        </div>
+    </div>
+    </div>
+    <div class="order-call__right">
+      <form class="order-call__form-order">
+        <label class="order-call__label">
+          Ваше имя
+          <input class="order-call__input" type="text" >
+        </label>
+        <label class="order-call__label">
+          Телефон
+          <input class="order-call__input" type="text" >
+        </label>
+        <label class="order-call__label">
+          E-mail
+          <input class="order-call__input" type="text" >
+        </label>
+        <label class="order-call__label">
+          Даты заезда и выезда 
+          <input class="order-call__input" type="text" >
+        </label>
+        <label class="order-call__label  order-call__label--number">
+          Гости
+          <input class="order-call__input  order-call__input--number" type="number" >
+        </label>
+        <button class="btn  btn--order-call">
+          Узнать цену
+          <svg class="arrow-btn" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="arrow-btn" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#FFF" stroke-width="2"/>
+          </svg>
+        </button>
+
+      </form>
+    </div>
+  </div>
+  </div><!-- End order-call__container -->
+
+</div>
+
 </section><!-- End fauna -->
+
 <!-- service -->
 <section class="service"  id="service_hunt">
+
 <!-- wrapp -->
   <div class="wrapp wrapp--service">
     <svg class="wrapp__label" width="61" height="77" viewBox="0 0 61 77" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -293,6 +397,7 @@ title: Hunter of House
 <section class="residence"  id="residence_hunt">
   <!-- container -->
   <div class="container">
+
     <!-- wrapp -->
     <div class="wrapp wrapp--service">
       <svg class="wrapp__label" width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -303,6 +408,7 @@ title: Hunter of House
         Комфортабельные спальные комнаты, оборудованные всем необходимым: двуспальные кровати, шкафы, прикроватные тумбы, санузел с душевой кабиной! 
         А просторная гостиная с диваном, креслами, большим телевизором, холодильником и набором посуды идеально подойдёт для отдыха всей компанией после успешной охоты</p>
     </div><!-- End wrapp -->
+
     <!-- residence__cards -->
     <div class="residence__cards">
       <div class="swiper swiper--length  swiper--residence">
@@ -382,10 +488,96 @@ title: Hunter of House
           </div>
       </div>
     </div><!--residence__cards end-->
+
+    <!-- order-call__container -->
+    <div class="order-call__container  order-call__container--visio">
+      <div class="order-call__form">
+        <div class="order-call__left">
+          <div class="swiper swiper--order-call-visio">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="order-call__card">
+                  <picture class="order-call__card-photo">
+                  <img class="order-call__img" src="assets/images/Galary_2.jpg"
+                      alt="Наши апартаменты">
+                  </picture>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="order-call__card">
+                  <picture class="order-call__card-photo">
+                  <img class="order-call__img" src="assets/images/Galary_1.jpg"
+                      alt="Наши апартаменты">
+                  </picture>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="order-call__card">
+                  <picture class="order-call__card-photo">
+                  <img class="order-call__img" src="assets/images/Galary_2.jpg"
+                      alt="Наши апартаменты">
+                  </picture>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="order-call__card">
+                  <picture class="order-call__card-photo">
+                  <img class="order-call__img" src="assets/images/Galary_1.jpg"
+                      alt="Наши апартаменты">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="arrow-wrap  arrow-wrap--order-call">
+                <button class="order-call__arrow  order-call__arrow--prev  visio-prev">
+                    <img class="prev-img" src="assets/images/left-arrow.png" alt="предыдущее">
+                </button>
+                <button class="order-call__arrow  order-call__arrow--next  visio-next">
+                    <img class="next-img" src="assets/images/right-arrow.png" alt="следующее">
+                </button>
+            </div>
+        </div>
+        </div>
+        <div class="order-call__right">
+          <form class="order-call__form-order">
+            <label class="order-call__label">
+              Ваше имя
+              <input class="order-call__input" type="text" >
+            </label>
+            <label class="order-call__label">
+              Телефон
+              <input class="order-call__input" type="text" >
+            </label>
+            <label class="order-call__label">
+              E-mail
+              <input class="order-call__input" type="text" >
+            </label>
+            <label class="order-call__label">
+              Даты заезда и выезда 
+              <input class="order-call__input" type="text" >
+            </label>
+            <label class="order-call__label  order-call__label--number">
+              Гости
+              <input class="order-call__input  order-call__input--number" type="number" >
+            </label>
+            <button class="btn  btn--order-call">
+              Узнать цену
+              <svg class="arrow-btn" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="arrow-btn" d="M0 6H15.5M11 11C11.4 10.2 14.5 7.33333 16 6L11 1" stroke="#FFF" stroke-width="2"/>
+              </svg>
+            </button>
+  
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End order-call__container -->
+
     <!-- visio -->
     <div class="visio">
       <iframe class="visio__player" src="assets/images/Youtube_player.jpg" frameborder="0"></iframe>
-    </div>
+    </div><!-- End visio -->
+
     <!-- apartment__cards -->
     <div class="apartment__cards">
       <div class="swiper swiper--length  swiper--apartment">
@@ -473,5 +665,6 @@ title: Hunter of House
           </div>
       </div>
     </div><!--apartment__cards end-->
+
   </div> <!-- End container -->
 </section><!-- End residence -->

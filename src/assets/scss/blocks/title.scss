@@ -1,23 +1,70 @@
-.title {
 
-  font-family: Roboto;
-  font-size: 82px;
+.title {
+  font-size: 8.2rem;
   font-weight: 900;
 
   @media screen and ( max-width: $laptop-bp) {
-    font-size: 72px;
+    font-size: 6.2rem;
   }
   @media screen and ( max-width: $mobile-bp) {
-    font-size: 42px;
+    font-size: 3.2rem;
   }
   @media screen and ( max-width: $tapik-bp) {
-    font-size: 21px;
+    font-size: 2.1rem;
   }
 
   &--front-page {
+    width: 100%;
     margin: 229px 0 32px 0;
 
     color: $hover-active;
+    position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: -70px;
+    bottom: 8%;
+    width: 14%;
+    height: 2px;
+    background-color: $hover-active;
+
+    @media screen and ( max-width: $laptop-bp) {
+      bottom: 5%;
+      right: -60px;
+    }
+
+    @media screen and ( max-width: $mobile-bp) {
+      bottom: 7%;
+      right: -40px;
+    }
+    @media screen and ( max-width: $tapik-bp) {
+      bottom: 5%;
+      right: -20px;
+    }
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    left: -70px;
+    top: 11%;
+    width: 9%;
+    height: 2px;
+    background-color: $hover-active;
+
+    @media screen and ( max-width: $laptop-bp) {
+      top: 7%;
+      left: -60px;
+    }
+    @media screen and ( max-width: $mobile-bp) {
+      top: 11%;
+      left: -40px;
+    }
+    @media screen and ( max-width: $tapik-bp) {
+      top: 7%;
+      left: -20px;
+    }
+  }
   }
 
   &--wrapp {

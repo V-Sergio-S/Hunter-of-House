@@ -10,6 +10,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    font-size: 62.5%;
+}
 
 @font-face {
     font-family: Roboto;
@@ -37,6 +40,12 @@
 
 @font-face {
     font-family: HelveticaNeue;
+    src: url("../font/HelveticaNeueCyr-Heavy.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: HelveticaNeue;
     src: url("../font/HelveticaNeueCyr-Light.otf");
     font-weight: 300;
 }
@@ -59,10 +68,9 @@
 }
 
 body {
-    box-sizing: border-box;
     font-family: Roboto, sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 
@@ -77,7 +85,9 @@ body {
 @import 'blocks/text.scss';
 @import 'blocks/phone.scss';
 @import 'blocks/btn.scss';
+@import 'blocks/arrow-btn.scss';
 @import 'blocks/form.scss';
+@import 'blocks/order-call.scss';
 @import 'blocks/about.scss';
 @import 'blocks/fauna.scss';
 @import 'blocks/wrapp.scss';
@@ -86,6 +96,7 @@ body {
 @import 'blocks/service.scss';
 @import 'blocks/residence.scss';
 @import 'blocks/arrow-wrapp.scss';
+@import 'blocks/arrow-btn.scss';
 @import 'blocks/visio.scss';
 @import 'blocks/apartment.scss';
 @import 'blocks/footer.scss';

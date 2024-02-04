@@ -72,6 +72,16 @@
     outline: none;
   }
 }
+// input::-webkit-datetime-edit-day-field { display: none; }
+// input::-webkit-datetime-edit-text.day-field { display: none; }
+// input::-moz-datetime-seconds-container { display: none; }
+// input::-webkit-datetime-edit-month-field { display: none; }
+// input::-webkit-datetime-edit-text.month-field { display: none; }
+// input::-moz-datetime-seconds-container { display: none; }
+// input::-webkit-datetime-edit-year-field { display: none; }
+// input::-webkit-datetime-edit-text.year-field { display: none; }
+// input::-moz-datetime-seconds-container { display: none; }
+
 .form__hunter-text {
   position: absolute;
   top: 7px;

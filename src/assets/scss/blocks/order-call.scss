@@ -1,0 +1,95 @@
+
+.order-call__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &--fauna {
+    position: absolute;
+    top: 33px;
+  }
+
+  &--visio {
+    padding-top: 120px;
+  }
+}
+.order-call__form {
+  padding: 33px;
+  width: 829px;
+  height: 442px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 2px;
+
+  background: rgba(13, 31, 45, 1);
+  box-shadow: 5px 5px 69px 0px rgba(38, 38, 38, 0.1);
+
+}
+.order-call__right {
+  padding: 5px;
+}
+.order-call__left {
+  width: 100%;
+  padding: 5px;
+  overflow: hidden;
+
+}
+.order-call__card {
+  width: 541px;
+  height: 376px;
+
+  border-radius: 2px;
+}
+.order-call__arrow {
+  width: 52px;
+  height: 52px;
+
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+
+  background: rgba(13, 31, 45, 1);
+
+  &--prev {
+    position: absolute;
+    left: -18px;
+  }
+  &--next {
+    position: absolute;
+    right: -18px;
+  }
+
+}
+.order-call__form-order {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.order-call__label {
+  margin: 6px 0;
+  display:flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+
+  color: $hover-active;
+
+}
+.order-call__input {
+  width: 170px;
+  height: 23px;
+  margin-top: 6px;
+
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+}
